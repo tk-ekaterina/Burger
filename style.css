@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main {
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    color: #FAF9F9;
+    flex: 0 0 580px;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+h1 {
+    font-size: 120px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 120px;
+    margin-bottom: 40px;
+}
+
+h1 span {
+    color: #FBB731;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    line-height: 1.4;
+    margin-bottom: 42px;
+}
+
+a {
+    color: #1E2F40;
+    background-color: #FBB731;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 20px 45px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.visual {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.bg {
+    width: 432px;
+    height: 862px;
+    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+
+img {
+    width: 829px;
+    position: absolute;
+    right: -168px;
+}
+
+.present {
+    width: auto;
+    height: 895px;
+    background-color: #E5E5E5;
+}
+
+.banners {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    margin: 180px auto 200px auto;
+    height: 395px;
+    width: 580px;
+    background-color: black;
+}
+
+.banner-one {
+    margin-left: 220px;
+    background-image: url("img/banner1 (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner-text1 {
+    margin: 116px 152px 116px 50px;
+
+}
+
+.sale {
+    width: 110px;
+    height: 32px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #F37335;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.proc {
+    color: #FFFFFF;
+    width: 157px;
+    height: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 5px;
+
+}
+
+.banner-one-text {
+    width: 395px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+    color: #FAF9F9;
+
+}
+
+.banner-two {
+    margin-right: 220px;
+    background-image: url("img/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text2 {
+    height: 163px;
+    width: 380px;
+    margin: 102px 177px 101px 50px;
+
+    color: #FAF9F9;
+
+}
+
+.besp {
+    width: 227px;
+    height: 56px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+
+}
+
+.banner-two-text {
+    width: 299px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+    color: #FAF9F9;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    background: #1E2F40;
+}
+
+.footer-logo img {
+    width: 63px;
+    height: 56px;
+    position: static;
+    margin: 117px 134px 230px 300px;
+}
+
+.footer-item {
+    margin: 111px 100px auto auto;
+    width: 274px;
+    height: 173px;
+}
+
+.footer-item h4 {
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.footer-item p {
+    color: #DEDEDE;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+.footer-item p.bold {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-item p.numb {
+    color: #FBB731;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+}
